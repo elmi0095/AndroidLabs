@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Row 1 -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I love Android"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Row 2 -->
+    <ImageButton
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Switch
+        android:id="@+id/switchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch on/off"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        app:layout_constraintStart_toEndOf="@+id/switchButton"
+        app:layout_constraintTop_toTopOf="@+id/switchButton"
+        app:layout_constraintBottom_toBottomOf="@+id/switchButton"/>
+
+    <!-- Row 3 -->
+    <Button
+        android:id="@+id/pressMeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Me"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchButton"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check this out!"
+        app:layout_constraintStart_toEndOf="@+id/pressMeButton"
+        app:layout_constraintTop_toTopOf="@+id/pressMeButton"
+        app:layout_constraintBottom_toBottomOf="@+id/pressMeButton"/>
+
+    <!-- Row 4 -->
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="I love Android"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pressMeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

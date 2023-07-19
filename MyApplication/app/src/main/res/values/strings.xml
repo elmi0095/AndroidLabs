@@ -1,0 +1,11 @@
+<resources>
+
+        <string name="app_name">MyApp</string>
+        <string name="love_android">I love Android</string>
+        <string name="switch_text">Switch on/off</string>
+        <string name="press_me">Press Me</string>
+        <string name="check_this_out">Check this out!</string>
+        <string name="toast_message">Label has been updated.</string>
+        <string name="checkbox_state">The checkbox is now %1$s</string>
+        <string name="undo">Undo</string>
+</resources>
