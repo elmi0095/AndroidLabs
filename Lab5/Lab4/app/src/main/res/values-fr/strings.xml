@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Application des Tâches</string>
+    <string name="hint_todo">Tapez ici</string>
+    <string name="button_add">Ajouter</string>
+    <string name="dialog_title">Voulez-vous supprimer ceci ?</string>
+    <string name="dialog_message">La rangée sélectionnée est : %1$d</string>
+    <string name="dialog_positive_button">Oui</string>
+    <string name="dialog_negative_button">Non</string>
+    <string name="urgent_switch_label">Urgent</string>
+    <string name="item_deleted">Objet Supprimer.</string>
+</resources>
